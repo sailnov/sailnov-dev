@@ -27,3 +27,6 @@ logs
 .DS_Store
 Desktop.ini
 Thumbs.db
+
+#Nuxt Fonts
+.data
