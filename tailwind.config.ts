@@ -8,13 +8,27 @@ export default <Partial<Config>>{
                 sans: ["Noto Sans JP", "sans-serif"],
             },
             animation: {
-                "pop-blob": "pop-blob 15s infinite",
+                "pop-blob": "pop-blob 10s infinite",
+                "pop-blob2": "pop-blob2 10s infinite",
+                "pop-blob3": "pop-blob3 10s infinite",
             },
             keyframes: {
                 "pop-blob": {
                     "0%": { transform: "scale(1)" },
                     "33%": { transform: "scale(1.2)" },
                     "66%": { transform: "scale(0.8)" },
+                    "100%": { transform: "scale(1)" },
+                },
+                "pop-blob2": {
+                    "0%": { transform: "scale(1)" },
+                    "50%": { transform: "scale(1.2)" },
+                    "80%": { transform: "scale(0.8)" },
+                    "100%": { transform: "scale(1)" },
+                },
+                "pop-blob3": {
+                    "0%": { transform: "scale(1)" },
+                    "20%": { transform: "scale(1.2)" },
+                    "50%": { transform: "scale(0.8)" },
                     "100%": { transform: "scale(1)" },
                 },
                 "bg-position": {

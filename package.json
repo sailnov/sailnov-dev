@@ -1,26 +1,26 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@nuxt/fonts": "^0.7.1",
-    "@nuxt/icon": "^1.4.4",
-    "@nuxt/image": "^1.7.0",
-    "@nuxt/ui": "^2.18.3",
-    "@nuxtjs/i18n": "^8.3.3",
-    "date-fns": "^3.6.0",
-    "framer-motion": "^11.3.20",
-    "nuxt": "^3.12.4",
-    "vue": "latest"
-  },
-  "devDependencies": {
-    "@iconify-json/tabler": "^1.1.118"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@nuxt/fonts": "^0.7.1",
+        "@nuxt/icon": "^1.4.4",
+        "@nuxt/ui": "^2.18.3",
+        "@nuxtjs/i18n": "^8.3.3",
+        "date-fns": "^3.6.0",
+        "framer-motion": "^11.3.20",
+        "nuxt": "^3.12.4",
+        "vue": "latest"
+    },
+    "devDependencies": {
+        "@iconify-json/simple-icons": "^1.1.111",
+        "@iconify-json/tabler": "^1.1.118"
+    }
 }
